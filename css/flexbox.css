@@ -76,6 +76,10 @@
     flex-grow: 1;
 }
 
+.videoSobre-video {
+    flex-shrink: 2;
+}
+
 /*Parte Mobile*/
 
 @media(max-width: 768px) {
@@ -118,6 +122,14 @@
 
     .rodapePrincipal-contatoForm-fieldset {
         justify-content: center;
+    }
+
+    .videoSobre .container {
+        flex-direction: column;
+    }
+
+    .videoSobre-video {
+        margin: 0 auto;
     }
 
 }
